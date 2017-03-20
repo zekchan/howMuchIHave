@@ -1,0 +1,27 @@
+{
+  "name": "how_match_i_have",
+  "version": "0.0.1",
+  "description": "Simple script for manage your criptocurrencies balance in usd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zekchan/howMachIHave.git"
+  },
+  "keywords": [
+    "nodejs",
+    "bitcoin",
+    "javascript"
+  ],
+  "author": "zkchn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zekchan/howMachIHave/issues"
+  },
+  "homepage": "https://github.com/zekchan/howMachIHave#readme",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  }
+}
