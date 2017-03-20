@@ -1,5 +1,5 @@
 {
-  "name": "how_match_i_have",
+  "name": "how_mutch_i_have",
   "version": "0.0.1",
   "description": "Simple script for manage your criptocurrencies balance in usd",
   "main": "index.js",
@@ -18,9 +18,9 @@
   "author": "zkchn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zekchan/howMachIHave/issues"
+    "url": "https://github.com/zekchan/howMuchIHave/issues"
   },
-  "homepage": "https://github.com/zekchan/howMachIHave#readme",
+  "homepage": "https://github.com/zekchan/howMuchIHave#readme",
   "dependencies": {
     "node-fetch": "^1.6.3"
   }
