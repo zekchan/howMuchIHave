@@ -6,7 +6,6 @@ Promise.all(
     Object.keys(I_HAVE).map(ticker => fetch(`https://api.coinmarketcap.com/v1/ticker/${ticker}/?convert=btc`)
         .then(res => res.json())
         .then(([{ price_usd, price_btc }]) => {
-            console.log(price_btc, price_usd);
             return ({
                 btc: price_btc * I_HAVE[ticker],
                 usd: price_usd * I_HAVE[ticker]
